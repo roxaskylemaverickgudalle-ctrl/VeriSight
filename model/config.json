@@ -1,0 +1,21 @@
+{
+    "project": "VeriSight",
+    "architecture": "ResNet18",
+    "framework": "PyTorch",
+    "dataset": "CIFAKE",
+    "classes": {
+        "0": "AI-Generated",
+        "1": "Real"
+    },
+    "image_size": 224,
+    "dataset_split": {
+        "train": 90000,
+        "validation": 10000,
+        "test": 20000
+    },
+    "test_accuracy": 0.97,
+    "test_loss": 0.0786,
+    "correct_predictions": 19400,
+    "incorrect_predictions": 600,
+    "explainability": "Grad-CAM"
+}
