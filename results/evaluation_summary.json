@@ -1,0 +1,17 @@
+{
+    "model": "ResNet18",
+    "dataset": "CIFAKE",
+    "training_images": 90000,
+    "validation_images": 10000,
+    "test_images": 20000,
+    "test_loss": 0.0786,
+    "test_accuracy": 0.97,
+    "correct_predictions": 19400,
+    "incorrect_predictions": 600,
+    "ai_generated_precision": 0.9517,
+    "ai_generated_recall": 0.9903,
+    "ai_generated_f1": 0.9706,
+    "real_precision": 0.9899,
+    "real_recall": 0.9497,
+    "real_f1": 0.9694
+}
