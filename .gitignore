@@ -1,18 +1,23 @@
+# Python
 __pycache__/
 *.pyc
 
+# Jupyter
 .ipynb_checkpoints/
 
+# Virtual environments
 venv/
 .env
 
+# Datasets
 data/
 dataset/
 *.zip
 
-*.pth
-*.pt
-*.ckpt
-
+# Logs/temp
 *.log
 *.tmp
+
+# PyTorch checkpoints
+*.pt
+*.ckpt
